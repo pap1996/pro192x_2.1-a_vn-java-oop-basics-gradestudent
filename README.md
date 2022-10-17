@@ -17,8 +17,7 @@
 
 <a href="PRO192x_Project 2_phupaFX07929@funix.edu.vn">_**Grade Student**_</a>  has some following features:
 <p align="center">
-
-<img src="res/image/gradestudent_ex.JPG"></img>
+<img src="/res/image/gradestudent_ex.JPG"></img>
 </p>
 
 
