@@ -16,8 +16,10 @@
 ## Functional description
 
 <a href="PRO192x_Project 2_phupaFX07929@funix.edu.vn">_**Grade Student**_</a>  has some following features:
-
+<p align="center">
 ![](res/image/gradestudent_ex.JPG)
+</p>
+
 
 - First, print out introduction of the program: **_“This program reads exam/homework scores and reports your overall course grade"_**
 - Input _**Midterm Grade**_, including:
@@ -40,7 +42,7 @@
   | :------------- | :------------- | :------------- |:------------- |
   | Overall percentage >= 85%     | Overall percentage >= 75% and < 85%       |Overall percentage >= 60% and < 75%       |Overall percentage < 60%       |
 
-  - Custom message to user based on GPA
+  - Customized messages to user based on GPA
 
 ## Demo
 
