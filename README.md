@@ -35,9 +35,11 @@
 - Display the final score with:
   - **Overall percentage** (=sum of Weighted scores from Midterm, Final and Homework)
   - **Your grade will be at least**: convert to scale 0-3 based on Overall percentage and the rule
+
   | GPA=3.0    | GPA=2.0     |GPA=1.0     |GPA=0.0     |
   | :------------- | :------------- | :------------- |:------------- |
   | Overall percentage >= 85%     | Overall percentage >= 75% and < 85%       |Overall percentage >= 60% and < 75%       |Overall percentage < 60%       |
+
   - Custom message to user based on GPA
 
 ## Demo
