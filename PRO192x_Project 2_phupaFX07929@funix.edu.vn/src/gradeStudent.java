@@ -133,7 +133,7 @@ public class gradeStudent {
             grade = 2.0;
             message = "Moderate, need more effort";
         } else if (overallPercent >= 60) {
-            grade = 0.7;
+            grade = 1.0;
             message = "Please more concentrate!";
         } else {
             grade = 0.0;

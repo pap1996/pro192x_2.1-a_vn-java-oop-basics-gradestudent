@@ -36,17 +36,29 @@
 
 - Display the final score with:
   - **Overall percentage** (=sum of Weighted scores from Midterm, Final and Homework)
-  - **Your grade will be at least**: convert to scale 0-3 based on Overall percentage and the rule
+  - **Your grade will be at least**: convert to scale 0-3 based on Overall percentage and the below rule
+  - Customized messages to user based on GPA
+
 
 
 | GPA=3.0    | GPA=2.0     |GPA=1.0     |GPA=0.0     |
 | :------------- | :------------- | :------------- |:------------- |
 | Overall percentage >= 85%     | Overall percentage >= 75% and < 85%       |Overall percentage >= 60% and < 75%       |Overall percentage < 60%       |
+|Good job!   |Moderate, need more effort   |Please more concentrate!   |  You need take this course again! |
 
-  - Customized messages to user based on GPA
+
+_**Notes:**_
+- Sum of **Weight** from 3 parts (Midterm, Final, Homework) must be exactly 100.
+- **Total points** in _**Assignment**_ must be less than or equal to 150, if exceeding 150, 150 will be recorded.
+- **Section points** must be less than or equal to 30, if user attend more than 6 sections (i.e section point will exceed 30), 30 will be recorded.
+- **Weighted score** will be rounded to 1 decimal digit.
+
 
 ## Demo
 
+The demo video can be seen via: https://www.youtube.com/watch?v=lnCmbZ6nlh4
+
+[![](res/image/demo_gif_gradestudent.gif)](https://www.youtube.com/watch?v=lnCmbZ6nlh4)
 
 ## Further enhancement
 - Add UI with JavaFX or Java Swing for better user interaction.
