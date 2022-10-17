@@ -27,7 +27,7 @@
   - **Score earned**: the actual point which user gets
   - **Were scores shifted (1 = yes, 2=no)**: whether or not extra points are added into the total actual point. If yes, **Shifted amount** will be keyed in; otherwise, move to printing out
   - Print out in console: **Total points** (=Score earned + Shifted amount (if any)) and **Weighted amount** (= Score earned * Weight / 100)
-- Input **Final Grade**, including components similar to **Midterm**
+- Input **_Final Grade_**, including components similar to **Midterm**
 - Input _**Homework**_, including:
   - **Weight**: similar to the one of Midterm
   - **Number of assignments**: declare the number of assignments. Based on the number keyed in, user must input 2 number for **Assignment x score and max** corresponding to the actual points and maximum score for the assignment (x - the order number of the assignment)
@@ -38,9 +38,10 @@
   - **Overall percentage** (=sum of Weighted scores from Midterm, Final and Homework)
   - **Your grade will be at least**: convert to scale 0-3 based on Overall percentage and the rule
 
-  | GPA=3.0    | GPA=2.0     |GPA=1.0     |GPA=0.0     |
-  | :------------- | :------------- | :------------- |:------------- |
-  | Overall percentage >= 85%     | Overall percentage >= 75% and < 85%       |Overall percentage >= 60% and < 75%       |Overall percentage < 60%       |
+
+| GPA=3.0    | GPA=2.0     |GPA=1.0     |GPA=0.0     |
+| :------------- | :------------- | :------------- |:------------- |
+| Overall percentage >= 85%     | Overall percentage >= 75% and < 85%       |Overall percentage >= 60% and < 75%       |Overall percentage < 60%       |
 
   - Customized messages to user based on GPA
 
